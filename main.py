@@ -33,7 +33,7 @@ for z in range(1, nr_numbers + 1):
 
 finalOutput = finalLetters + finalSymbols + finalNumbers
 
-print(finalOutput)
+
 
 
 # for an in finalOutput:
