@@ -34,12 +34,6 @@ for z in range(1, nr_numbers + 1):
 finalOutput = finalLetters + finalSymbols + finalNumbers
 
 
-
-
-# for an in finalOutput:
-#     randomPassword = random.randint(0, len(finalOutput) - 1)
-#     finalPassword = finalPassword + finalOutput[randomPassword]
-
 finalOutput = list(finalOutput)
 random.shuffle(finalOutput)
 finalOutput = ''.join(finalOutput)
