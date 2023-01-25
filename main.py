@@ -43,7 +43,7 @@ print(finalOutput)
 finalOutput = list(finalOutput)
 random.shuffle(finalOutput)
 finalOutput = ''.join(finalOutput)
-print(finalOutput)
+print(f"Your password is: {finalOutput}")
 
 
 
